@@ -194,24 +194,25 @@ div > ul {
     
   }
 
+  #logo-home {
+   width:120px;
+   height: auto;
+    margin-left: 370px;
+    margin-top: 15px;
+    z-index: 2;
+    position: fixed;
+    }
 
 /* Sticky header */  
   #sticky-head {
     background-color:#FFBF60;
     height: 10.55vh;
     width: 100%;
-    
     position: fixed;
     z-index: 1;
     }
 
-    #logo-home {
-    width: 120px;
-    height: 100%;
-    margin-left: 340px;
-    margin-top: 15px;
-    z-index: 100;
-    }
+    
 
     div > h2 {
         color: #fff;
