@@ -5,27 +5,218 @@ body, html {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    
 }  
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
 
 div > ul {
     display: flex;
     justify-content: right;
-    margin-right: 30px;
-    margin-top: 0px;
+    margin-right: 300px;
+    margin-top: 10px;
   }
   
   div > ul > li {
     display: inline-block; 
-    font-family: 'Raleway', sans-serif;
-    font-size: 40px;
-    
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+     
   }
   
   div > ul > li > a {
     padding-left: 30px;
+    text-decoration: none;
+    color: #0c0c0c;
   }
 
   
+/* Grid */
+.wrapper {    
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+
+  .navbar {
+    grid-column: 1 / 9;
+    grid-row: 1;
+    background-color:#FFBF60;
+    
+  }
+
+  #logo-home {
+   width:120px;
+   height: auto;
+    margin-left: 370px;
+    margin-top: 15px;
+    
+    position: absolute;
+    }
+
+    .toggler {
+        opacity: 0;
+      }
+
+
+
+    div > h2 {
+        color: #fff;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        top: -140px;
+        font-size: 2.5rem;
+        position: relative;
+        margin-left: 20px; 
+    }
+
+    #background-box {
+        padding: 60px ;
+        background-color: #0c0c0c;
+        opacity: 0.5;
+    }
+
+  .two {
+    grid-column: 2 / 5;
+    grid-row: 2 / 5;
+    background-color: red;
+    background-image: url(/images/mammoth-1257288_1920.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+  }
+  
+  .three {
+    grid-column: 5 / 8;
+    grid-row: 2 / 5;
+    background-color: blue;
+    background-image: url(/images/roberto-nickson-396152.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .four {
+    grid-column: 2 / 6;
+    grid-row: 5 / 9;
+    background-color: yellow;
+    background-image: url(/images/scott-webb-102825.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .five {
+    grid-column: 6 / 8;
+    grid-row: 5 / 9;
+    background-color: purple;
+    background-image: url(/images/billetto-editorial-334686.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .six {
+    grid-column: 2 / 8;
+    grid-row: 9 / 12;
+    background-color: green;
+    background-image: url(/images/lab-512503_1920.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+.footer {
+background-color: #FFBF60;
+grid-column: 1 / 9;
+grid-row: 12 / 16;
+  }
+
+.fa-clock,.fa-map-marker-alt,.fa-utensils,.fa-phone-alt,.fa-wheelchair,.fa-shopping-cart {
+font-size: 60px;
+position: relative;
+top: 20px;
+left: 60px;
+  }
+
+.aligned-text {
+    position: relative;
+    top: 60px;
+}
+
+.aligned-text-second {
+    position: relative;
+    top: 60px;
+    margin-left: 0px; 
+}
+
+.footer-box {
+  display: flex;
+  position: relative;
+  margin-left: 200px;
+  margin-right: 200px;
+  justify-content: space-evenly;
+  }
+  
+  .footer-box-second {
+    display: flex;
+    position: relative;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-evenly;
+    top: 10px;
+    }
+
+
+.footer-rest{
+background-color:#FFBF60;
+grid-column: 1 / 9;
+grid-row: 16 / 20;
+position: relative;
+margin-top: -10px;
+}
+
+#copyed {
+    position: relative;
+    margin-left: 40%;
+    top: 20%;
+}
+ 
+  
+div > h3 {
+    color: #0c0c0c;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    top: 0px;
+    position: relative;
+}
+
+div  > p {
+    color: #0c0c0c;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-right: 50px;
+    
+   
+}
 
 
   @media only screen and (max-width: 550px) {
@@ -195,24 +386,22 @@ div > ul {
   }
 
   #logo-home {
-   width:120px;
-   height: auto;
+    width:120px;
+    height: auto;
     margin-left: 370px;
     margin-top: 15px;
-    z-index: 2;
+    z-index: 3;
     position: fixed;
     }
 
 /* Sticky header */  
   #sticky-head {
     background-color:#FFBF60;
-    height: 10.55vh;
+    height: 12vh;
     width: 100%;
     position: fixed;
     z-index: 1;
     }
-
-    
 
     div > h2 {
         color: #fff;
@@ -221,10 +410,7 @@ div > ul {
         top: -140px;
         font-size: 2.5rem;
         position: relative;
-        margin-left: 20px;
-
-        
-      
+        margin-left: 20px; 
     }
 
     #background-box {
@@ -293,20 +479,48 @@ div > ul {
 .footer {
 background-color: #FFBF60;
 grid-column: 1 / 5;
-    grid-row: 22 / 30;
+grid-row: 22 / 30;
   }
   
 .footer-box{
 color: #0c0c0c;   
 padding: 50px 50px;
 text-align: center;
-  
+display: flex;
+flex-direction: column;
+margin-right: 10px;
+margin-left: 10px; 
 }
+
+.footer-box-second {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    top: 10px;
+    }  
+
+.footer-rest {
+background-color:#FFBF60;
+grid-column: 1 / 5;
+grid-row: 30 / 34;
+}
+
+#copyed {
+    position: relative;
+    margin-left: 0%;
+    top: 20px;
+    margin-top: 50px; 
+}
+ 
 
 .fa-clock,.fa-map-marker-alt,.fa-utensils,.fa-phone-alt,.fa-wheelchair,.fa-shopping-cart {
     font-size: 60px;
   position: relative;
-  top: 40px;
+  top: 90px;
+  left: 0px;
 
   }
 
@@ -318,7 +532,6 @@ div > h3 {
     text-align: center;
     top: 20px;
     position: relative;
-   
 }
 
 div  > p {
@@ -327,6 +540,7 @@ div  > p {
     font-weight: 400;
     font-size: 1.5rem;
     text-align: center;
+    margin-right: 0px;
 }
 
  
