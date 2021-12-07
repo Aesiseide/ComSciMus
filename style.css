@@ -16,7 +16,7 @@ a{
 div > ul {
     display: flex;
     justify-content: right;
-    margin-right: 300px;
+    margin-right: 200px;
     margin-top: 10px;
   }
   
@@ -53,7 +53,7 @@ div > ul {
   #logo-home {
    width:120px;
    height: auto;
-    margin-left: 370px;
+    margin-left: 200px;
     margin-top: 15px;
     
     position: absolute;
@@ -195,7 +195,8 @@ margin-top: -10px;
 #copyed {
     position: relative;
     margin-left: 40%;
-    top: 20%;
+    top: 7%;
+    font-size: 20px;
 }
  
   
@@ -388,7 +389,7 @@ div > ul {
   #logo-home {
     width:120px;
     height: auto;
-    margin-left: 370px;
+    margin-left: 310px;
     margin-top: 15px;
     z-index: 3;
     position: fixed;
@@ -397,7 +398,7 @@ div > ul {
 /* Sticky header */  
   #sticky-head {
     background-color:#FFBF60;
-    height: 12vh;
+    height: 14vh;
     width: 100%;
     position: fixed;
     z-index: 1;
