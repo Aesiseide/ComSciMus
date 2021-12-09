@@ -16,7 +16,7 @@ a{
 div > ul {
     display: flex;
     justify-content: right;
-    margin-right: 200px;
+    margin-right: 300px;
     margin-top: 10px;
   }
   
@@ -53,7 +53,7 @@ div > ul {
   #logo-home {
    width:120px;
    height: auto;
-    margin-left: 200px;
+    margin-left: 370px;
     margin-top: 15px;
     
     position: absolute;
@@ -195,8 +195,7 @@ margin-top: -10px;
 #copyed {
     position: relative;
     margin-left: 40%;
-    top: 7%;
-    font-size: 20px;
+    top: 20%;
 }
  
   
@@ -389,7 +388,7 @@ div > ul {
   #logo-home {
     width:120px;
     height: auto;
-    margin-left: 310px;
+    margin-left: 240px;
     margin-top: 15px;
     z-index: 3;
     position: fixed;
@@ -408,14 +407,14 @@ div > ul {
         color: #fff;
         font-family: 'Inter', sans-serif;
         font-weight: 700;
-        top: -140px;
+        top: -190px;
         font-size: 2.5rem;
         position: relative;
         margin-left: 20px; 
     }
 
     #background-box {
-        padding: 60px ;
+        padding: 90px;
         background-color: #0c0c0c;
         opacity: 0.5;
     }
@@ -507,6 +506,7 @@ margin-left: 10px;
 background-color:#FFBF60;
 grid-column: 1 / 5;
 grid-row: 30 / 34;
+padding:20px;
 }
 
 #copyed {
