@@ -13,10 +13,15 @@ a{
     color: #fff;
 }
 
+#nav-page-orientation{
+  color: #fff;
+}
+
+
 div > ul {
     display: flex;
     justify-content: right;
-    margin-right: 300px;
+    margin-right: 200px;
     margin-top: 10px;
   }
   
@@ -53,9 +58,8 @@ div > ul {
   #logo-home {
    width:120px;
    height: auto;
-    margin-left: 370px;
+    margin-left: 200px;
     margin-top: 15px;
-    
     position: absolute;
     }
 
@@ -157,7 +161,7 @@ left: 60px;
 
 .aligned-text {
     position: relative;
-    top: 60px;
+    top: 50px;
 }
 
 .aligned-text-second {
@@ -195,7 +199,8 @@ margin-top: -10px;
 #copyed {
     position: relative;
     margin-left: 40%;
-    top: 20%;
+    top: 60px;
+    font-size: 15px;
 }
  
   
