@@ -13,6 +13,11 @@ a{
     color: #fff;
 }
 
+#nav-page-orientation{
+  color: #fff;
+}
+
+
 div > ul {
     display: flex;
     justify-content: right;
@@ -51,7 +56,7 @@ div > ul {
   }
 
   #logo-home {
-   width:120px;
+   width: 120px;
    height: auto;
     margin-left: 370px;
     margin-top: 15px;
@@ -69,23 +74,37 @@ div > ul {
         color: #fff;
         font-family: 'Inter', sans-serif;
         font-weight: 700;
-        top: -140px;
+        top: -650px;
+        margin-left: 250px;
         font-size: 2.5rem;
         position: relative;
-        margin-left: 20px; 
+        
     }
 
     #background-box {
-        padding: 60px ;
+        padding: 60px;
+        z-index: -2;
+        height: 82%;
         background-color: #0c0c0c;
         opacity: 0.5;
     }
 
+    #picture-side-text{
+      margin-left: 250px;
+      margin-right: 50px;
+      position: relative;
+      margin-top: -450px;
+      top: -200px;
+      color: #fff;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+    }
+
   .two {
-    grid-column: 2 / 5;
-    grid-row: 2 / 5;
+    grid-column: 2 / 8;
+    grid-row: 2 / 8;
     background-color: red;
-    background-image: url(/images/mammoth-1257288_1920.jpg);
+    background-image: url(/images/learn-2405206_1920.jpg);
     background-size: cover;
     width: 100%;
     height: auto;
@@ -95,10 +114,10 @@ div > ul {
   }
   
   .three {
-    grid-column: 5 / 8;
-    grid-row: 2 / 5;
+    grid-column: 2 / 8;
+    grid-row: 8 / 14;
     background-color: blue;
-    background-image: url(/images/roberto-nickson-396152.jpg);
+    background-image: url(/images/woman-teach.jpg);
     background-size: cover;
     width: 100%;
     height: auto;
@@ -107,34 +126,34 @@ div > ul {
   }
 
   .four {
-    grid-column: 2 / 6;
-    grid-row: 5 / 9;
-    background-color: yellow;
-    background-image: url(/images/scott-webb-102825.jpg);
-    background-size: cover;
-    width: 100%;
-    height: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-
-  .five {
-    grid-column: 6 / 8;
-    grid-row: 5 / 9;
-    background-color: purple;
-    background-image: url(/images/billetto-editorial-334686.jpg);
-    background-size: cover;
-    width: 100%;
-    height: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-
-  .six {
     grid-column: 2 / 8;
-    grid-row: 9 / 12;
+    grid-row: 14 / 20;
+    background-color: yellow;
+    background-image: url(/images/man-thinking.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .fivee {
+    grid-column: 6 / 8;
+    grid-row: 20 / 26;
+    background-color: purple;
+    
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .sixx {
+    grid-column: 2 / 8;
+    grid-row: 26 / 30;
     background-color: green;
-    background-image: url(/images/lab-512503_1920.jpg);
+   
     background-size: cover;
     width: 100%;
     height: auto;
@@ -145,7 +164,7 @@ div > ul {
 .footer {
 background-color: #FFBF60;
 grid-column: 1 / 9;
-grid-row: 12 / 16;
+grid-row: 20 / 24;
   }
 
 .fa-clock,.fa-map-marker-alt,.fa-utensils,.fa-phone-alt,.fa-wheelchair,.fa-shopping-cart {
@@ -187,7 +206,7 @@ left: 60px;
 .footer-rest{
 background-color:#FFBF60;
 grid-column: 1 / 9;
-grid-row: 16 / 20;
+grid-row: 24 / 28;
 position: relative;
 margin-top: -10px;
 }
@@ -195,7 +214,7 @@ margin-top: -10px;
 #copyed {
     position: relative;
     margin-left: 40%;
-    top: 20%;
+    top: 15%;
 }
  
   
@@ -328,8 +347,8 @@ justify-content: center;
 .menu-wrap .menu > div {
 background-color: #0c0c0c;
 border-radius: 50%;
-width: 200vw;
-height: 200vw;
+width: 300vw;
+height: 300vw;
 display: flex;
 flex: none;
 align-items: center;
@@ -407,68 +426,88 @@ div > ul {
         color: #fff;
         font-family: 'Inter', sans-serif;
         font-weight: 700;
-        top: -190px;
+        top: -120px;
         font-size: 2.5rem;
         position: relative;
         margin-left: 20px; 
     }
 
     #background-box {
-        padding: 90px;
+        padding: 60px;
         background-color: #0c0c0c;
         opacity: 0.5;
+        z-index: -2;
+        height: 0%;  
+    }
+
+    #picture-side-text{
+      margin-left: 50px;
+      margin-right: 50px;
+      position: relative;
+      top: -80px;
+      color: #fff;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      margin-top: 0px;
     }
 
   .two {
     grid-column: 1 / 5;
     grid-row: 2 / 6;
     background-color: red;
-    background-image: url(/images/mammoth-1257288_1920.jpg);
+    background-image: url(/images/learn-girl-phone.jpg);
     background-size: cover;
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
     background-position: center;
-    
+    text-align: center;
   }
+
   .three {
     grid-column: 1 / 5;
     grid-row: 6 / 10;
     background-color: blue;
-    background-image: url(/images/roberto-nickson-396152.jpg);
+    background-image: url(/images/teach-woman-phone.jpg);
     background-size: cover;
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
     background-position: center;
   }
+
   .four {
     grid-column: 1 / 5;
     grid-row: 10 / 14;
     background-color: yellow;
-    background-image: url(/images/scott-webb-102825.jpg);
+    background-image: url(/images/man-think-phone.jpg);
     background-size: cover;
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
     background-position: center;
   }
+
+
+  /* These two divs are hidden */  
   .five {
     grid-column: 1 / 5;
-    grid-row: 14 / 18;
+    grid-row: 14 / 14;
     background-color: purple;
-    background-image: url(/images/billetto-editorial-334686.jpg);
+    z-index: -3;
     background-size: cover;
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
     background-position: center;
   }
+
   .six {
+    z-index: -3;
     grid-column: 1 / 5;
-    grid-row: 18 / 22;
+    grid-row: 14 / 14;
     background-color: green;
-    background-image: url(/images/lab-512503_1920.jpg);
+ 
     background-size: cover;
     width: 100%;
     height: auto;
@@ -479,7 +518,7 @@ div > ul {
 .footer {
 background-color: #FFBF60;
 grid-column: 1 / 5;
-grid-row: 22 / 30;
+grid-row: 14 / 20;
   }
   
 .footer-box{
@@ -505,15 +544,16 @@ margin-left: 10px;
 .footer-rest {
 background-color:#FFBF60;
 grid-column: 1 / 5;
-grid-row: 30 / 34;
-padding:20px;
+grid-row: 20 / 24;
+padding: 20px;
 }
 
 #copyed {
     position: relative;
     margin-left: 0%;
-    top: 20px;
-    margin-top: 50px; 
+    top: 0px;
+    margin-top: 80px; 
+    font-size: 15px;
 }
  
 

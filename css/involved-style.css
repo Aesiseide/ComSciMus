@@ -21,7 +21,7 @@ a{
 div > ul {
     display: flex;
     justify-content: right;
-    margin-right: 200px;
+    margin-right: 300px;
     margin-top: 10px;
   }
   
@@ -39,6 +39,10 @@ div > ul {
     color: #0c0c0c;
   }
 
+  img{
+    padding: 50px;
+    position: absolute;
+  }
   
 /* Grid */
 .wrapper {    
@@ -56,24 +60,18 @@ div > ul {
   }
 
   #logo-home {
-   width:120px;
-   height: auto;
-    margin-left: 200px;
-    margin-top: 15px;
-    padding: 0;
-    position: absolute;
-    }
-
+    width:120px;
+    height: auto;
+     margin-left: 200px;
+     margin-top: 15px;
+     padding: 0;
+     position: absolute;
+     }
     .toggler {
         opacity: 0;
       }
 
-img{
-  padding: 50px;
-  position: absolute;
-}
-
-    div > h2 {
+      div > h2 {
         color: #fff;
         font-family: 'Inter', sans-serif;
         font-weight: 700;
@@ -99,22 +97,19 @@ img{
   .two {
     grid-column: 2 / 8;
     grid-row: 2 / 6;
-    background-color:#152337;
-  
-    background-size: contain;
+    background-color: #152337;
+    background-size: cover;
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    
   }
   
   .three {
     grid-column: 2 / 8;
     grid-row: 6 / 10;
-    background-color:#4D78AB;
-    
+    background-color: #4D78AB;
     background-size: cover;
     width: 100%;
     height: auto;
@@ -125,8 +120,7 @@ img{
   .four {
     grid-column: 2 / 8;
     grid-row: 10 / 14;
-    background-color: #D37384;
-   
+    background-color:#D37384;
     background-size: cover;
     width: 100%;
     height: auto;
@@ -135,10 +129,10 @@ img{
   }
 
   .five {
-    grid-column: 2 / 8;
-    grid-row: 14 / 18;
-    background-color: #616567;
-    
+    display: none;
+    grid-column: 6 / 8;
+    grid-row: 20 / 26;
+    background-color: purple;
     background-size: cover;
     width: 100%;
     height: auto;
@@ -147,10 +141,10 @@ img{
   }
 
   .six {
+    display: none;
     grid-column: 2 / 8;
-    grid-row: 18 / 22;
-    background-color: #A1CF7D;
-    
+    grid-row: 26 / 30;
+    background-color: green;
     background-size: cover;
     width: 100%;
     height: auto;
@@ -161,7 +155,7 @@ img{
 .footer {
 background-color: #FFBF60;
 grid-column: 1 / 9;
-grid-row: 22 / 26;
+grid-row: 14 / 18;
   }
 
 .fa-clock,.fa-map-marker-alt,.fa-utensils,.fa-phone-alt,.fa-wheelchair,.fa-shopping-cart {
@@ -173,7 +167,7 @@ left: 60px;
 
 .aligned-text {
     position: relative;
-    top: 50px;
+    top: 60px;
 }
 
 .aligned-text-second {
@@ -203,16 +197,15 @@ left: 60px;
 .footer-rest{
 background-color:#FFBF60;
 grid-column: 1 / 9;
-grid-row: 26 / 30;
+grid-row: 18 / 22;
 position: relative;
-margin-top: -10px;
+margin-top: 0px;
 }
 
 #copyed {
     position: relative;
     margin-left: 40%;
-    top: 90px;
-    font-size: 15px;
+    top: 15%;
 }
  
   
@@ -345,8 +338,8 @@ justify-content: center;
 .menu-wrap .menu > div {
 background-color: #0c0c0c;
 border-radius: 50%;
-width: 200vw;
-height: 200vw;
+width: 300vw;
+height: 300vw;
 display: flex;
 flex: none;
 align-items: center;
@@ -405,7 +398,7 @@ div > ul {
   #logo-home {
     width:120px;
     height: auto;
-    margin-left: 220px;
+    margin-left: 240px;
     margin-top: 15px;
     z-index: 3;
     position: fixed;
@@ -427,80 +420,91 @@ div > ul {
         top: 0px;
         font-size: 2.5rem;
         position: relative;
-        margin-left: 70px; 
+        margin-left: 80px; 
     }
 
     #background-boxx {
-        padding: 90px;
+        padding: 60px;
         background-color: #0c0c0c;
         opacity: 0.5;
+        z-index: -2;
+        height: 0%;  
     }
 
     img{
-      padding: 50px;
+      padding: 30px;
       position: absolute;
-      margin-top: 80px;
+      margin-top: 60px;
+      text-align: center;
       
     }
-    
+
     #picture-side-text{
-      margin-left: 0px;
-      margin-right: 0px;
-      padding: 40px;
-      margin-top: 360px;
+      margin-left: 50px;
+      margin-right: 50px;
+      position: relative;
+      top: 0px;
       color: #fff;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      margin-top: 340px;
     }
 
   .two {
     grid-column: 1 / 5;
     grid-row: 2 / 6;
-    background-color:#152337;
-    
     background-size: cover;
+    background-color: none;
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
     background-position: center;
     
   }
+
   .three {
     grid-column: 1 / 5;
     grid-row: 6 / 10;
-    background-color:#4D78AB;
-    
     background-size: cover;
+    background-color: none;
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
     background-position: center;
   }
+
   .four {
     grid-column: 1 / 5;
     grid-row: 10 / 14;
-    background-color: #D37384;
-    
+    background-color: none;
     background-size: cover;
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
     background-position: center;
   }
+
+
+  /* These two divs are hidden */  
   .five {
+    display: none;
     grid-column: 1 / 5;
-    grid-row: 14 / 18;
-    background-color: #616567;
-   
+    grid-row: 14 / 14;
+    background-color: purple;
+    z-index: -3;
     background-size: cover;
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
     background-position: center;
   }
+
   .six {
+    z-index: -3;
     grid-column: 1 / 5;
-    grid-row: 18 / 22;
-    background-color: #A1CF7D;
-   
+    grid-row: 14 / 14;
+    background-color: green;
+ 
     background-size: cover;
     width: 100%;
     height: auto;
@@ -511,7 +515,7 @@ div > ul {
 .footer {
 background-color: #FFBF60;
 grid-column: 1 / 5;
-grid-row: 22 / 30;
+grid-row: 14 / 20;
   }
   
 .footer-box{
@@ -537,15 +541,16 @@ margin-left: 10px;
 .footer-rest {
 background-color:#FFBF60;
 grid-column: 1 / 5;
-grid-row: 30 / 34;
-padding:20px;
+grid-row: 20 / 24;
+padding: 20px;
 }
 
 #copyed {
     position: relative;
     margin-left: 0%;
-    top: 20px;
-    margin-top: 50px; 
+    top: 0px;
+    margin-top: 80px; 
+    font-size: 15px;
 }
  
 
@@ -575,7 +580,6 @@ div  > p {
     text-align: center;
     margin-right: 0px;
 }
-
 
  
 }

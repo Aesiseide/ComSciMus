@@ -21,7 +21,7 @@ a{
 div > ul {
     display: flex;
     justify-content: right;
-    margin-right: 200px;
+    margin-right: 300px;
     margin-top: 10px;
   }
   
@@ -44,7 +44,7 @@ div > ul {
 .wrapper {    
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    gap: 0px;
+    gap: 10px;
     grid-auto-rows: minmax(100px, auto);
   }
 
@@ -58,9 +58,9 @@ div > ul {
   #logo-home {
    width:120px;
    height: auto;
-    margin-left: 200px;
+    margin-left: 370px;
     margin-top: 15px;
-    padding: 0;
+    
     position: absolute;
     }
 
@@ -68,53 +68,42 @@ div > ul {
         opacity: 0;
       }
 
-img{
-  padding: 50px;
-  position: absolute;
-}
+
 
     div > h2 {
         color: #fff;
         font-family: 'Inter', sans-serif;
         font-weight: 700;
-        margin-left: 400px;
+        top: -140px;
         font-size: 2.5rem;
         position: relative;
-        
+        margin-left: 20px; 
     }
 
-    #picture-side-text{
-      margin-left: 400px;
-      margin-right: 200px;
-      color: #fff;
-    }
-
-    #background-boxx {
+    #background-box {
         padding: 60px ;
         background-color: #0c0c0c;
         opacity: 0.5;
     }
 
-
   .two {
-    grid-column: 2 / 8;
-    grid-row: 2 / 6;
-    background-color:#152337;
-  
-    background-size: contain;
+    grid-column: 2 / 5;
+    grid-row: 2 / 5;
+    background-color: red;
+    background-image: url(/images/mammoth-1257288_1920.jpg);
+    background-size: cover;
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    
   }
   
   .three {
-    grid-column: 2 / 8;
-    grid-row: 6 / 10;
-    background-color:#4D78AB;
-    
+    grid-column: 5 / 8;
+    grid-row: 2 / 5;
+    background-color: blue;
+    background-image: url(/images/roberto-nickson-396152.jpg);
     background-size: cover;
     width: 100%;
     height: auto;
@@ -123,10 +112,10 @@ img{
   }
 
   .four {
-    grid-column: 2 / 8;
-    grid-row: 10 / 14;
-    background-color: #D37384;
-   
+    grid-column: 2 / 6;
+    grid-row: 5 / 9;
+    background-color: yellow;
+    background-image: url(/images/scott-webb-102825.jpg);
     background-size: cover;
     width: 100%;
     height: auto;
@@ -135,10 +124,10 @@ img{
   }
 
   .five {
-    grid-column: 2 / 8;
-    grid-row: 14 / 18;
-    background-color: #616567;
-    
+    grid-column: 6 / 8;
+    grid-row: 5 / 9;
+    background-color: purple;
+    background-image: url(/images/billetto-editorial-334686.jpg);
     background-size: cover;
     width: 100%;
     height: auto;
@@ -148,9 +137,9 @@ img{
 
   .six {
     grid-column: 2 / 8;
-    grid-row: 18 / 22;
-    background-color: #A1CF7D;
-    
+    grid-row: 9 / 12;
+    background-color: green;
+    background-image: url(/images/lab-512503_1920.jpg);
     background-size: cover;
     width: 100%;
     height: auto;
@@ -158,10 +147,12 @@ img{
     background-position: center;
   }
 
+  /* Footer Section */
+
 .footer {
 background-color: #FFBF60;
 grid-column: 1 / 9;
-grid-row: 22 / 26;
+grid-row: 12 / 16;
   }
 
 .fa-clock,.fa-map-marker-alt,.fa-utensils,.fa-phone-alt,.fa-wheelchair,.fa-shopping-cart {
@@ -173,7 +164,7 @@ left: 60px;
 
 .aligned-text {
     position: relative;
-    top: 50px;
+    top: 60px;
 }
 
 .aligned-text-second {
@@ -203,7 +194,7 @@ left: 60px;
 .footer-rest{
 background-color:#FFBF60;
 grid-column: 1 / 9;
-grid-row: 26 / 30;
+grid-row: 16 / 20;
 position: relative;
 margin-top: -10px;
 }
@@ -211,8 +202,7 @@ margin-top: -10px;
 #copyed {
     position: relative;
     margin-left: 40%;
-    top: 90px;
-    font-size: 15px;
+    top: 20%;
 }
  
   
@@ -405,7 +395,7 @@ div > ul {
   #logo-home {
     width:120px;
     height: auto;
-    margin-left: 220px;
+    margin-left: 240px;
     margin-top: 15px;
     z-index: 3;
     position: fixed;
@@ -424,38 +414,23 @@ div > ul {
         color: #fff;
         font-family: 'Inter', sans-serif;
         font-weight: 700;
-        top: 0px;
+        top: -190px;
         font-size: 2.5rem;
         position: relative;
-        margin-left: 70px; 
+        margin-left: 20px; 
     }
 
-    #background-boxx {
+    #background-box {
         padding: 90px;
         background-color: #0c0c0c;
         opacity: 0.5;
     }
 
-    img{
-      padding: 50px;
-      position: absolute;
-      margin-top: 80px;
-      
-    }
-    
-    #picture-side-text{
-      margin-left: 0px;
-      margin-right: 0px;
-      padding: 40px;
-      margin-top: 360px;
-      color: #fff;
-    }
-
   .two {
     grid-column: 1 / 5;
     grid-row: 2 / 6;
-    background-color:#152337;
-    
+    background-color: red;
+    background-image: url(/images/mammoth-1257288_1920.jpg);
     background-size: cover;
     width: 100%;
     height: auto;
@@ -466,8 +441,8 @@ div > ul {
   .three {
     grid-column: 1 / 5;
     grid-row: 6 / 10;
-    background-color:#4D78AB;
-    
+    background-color: blue;
+    background-image: url(/images/roberto-nickson-396152.jpg);
     background-size: cover;
     width: 100%;
     height: auto;
@@ -477,8 +452,8 @@ div > ul {
   .four {
     grid-column: 1 / 5;
     grid-row: 10 / 14;
-    background-color: #D37384;
-    
+    background-color: yellow;
+    background-image: url(/images/scott-webb-102825.jpg);
     background-size: cover;
     width: 100%;
     height: auto;
@@ -488,8 +463,8 @@ div > ul {
   .five {
     grid-column: 1 / 5;
     grid-row: 14 / 18;
-    background-color: #616567;
-   
+    background-color: purple;
+    background-image: url(/images/billetto-editorial-334686.jpg);
     background-size: cover;
     width: 100%;
     height: auto;
@@ -499,8 +474,8 @@ div > ul {
   .six {
     grid-column: 1 / 5;
     grid-row: 18 / 22;
-    background-color: #A1CF7D;
-   
+    background-color: green;
+    background-image: url(/images/lab-512503_1920.jpg);
     background-size: cover;
     width: 100%;
     height: auto;
@@ -575,7 +550,6 @@ div  > p {
     text-align: center;
     margin-right: 0px;
 }
-
 
  
 }
