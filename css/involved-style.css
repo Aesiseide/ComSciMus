@@ -19,7 +19,7 @@ a {
 div > ul {
   display: flex;
   justify-content: right;
-  margin-right: 300px;
+  margin-right: 250px;
   margin-top: 10px;
 }
 
@@ -58,7 +58,7 @@ img {
 #logo-home {
   width: 120px;
   height: auto;
-  margin-left: 200px;
+  margin-left: 250px;
   margin-top: 15px;
   padding: 0;
   position: absolute;
@@ -203,7 +203,8 @@ div > h2 {
 #copyed {
   position: relative;
   margin-left: 40%;
-  top: 15%;
+  top: 40px;
+  font-size: 15px;
 }
 
 div > h3 {
